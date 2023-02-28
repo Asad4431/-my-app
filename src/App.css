@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.MyCalculater{
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 10px solid red;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+h1{
+  font-family: cursive;
+}
+input{
+  width: 70%;
+  padding: 10px 5px;
+  outline: none;
+  border-color: red;
+  margin-bottom: 10px;
+}
+button{
+  padding: 15px 30px;
+  margin: 5px 5px;
+  border: none;
+}
+button:hover{
+  background-color: red;
+  color: white;
+ /* border: 1px solid white; */
+}
+h3{
+  color: red;
+  font-family: cursive;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
